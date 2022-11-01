@@ -68,6 +68,12 @@ group :development do
   # gem "spring"
 end
 
+groups :production do
+  gem 'pg', '~> 1.4', '>= 1.4.4'
+  # may need gem 'rails_12factor', '0.0.2' or whatever is latest version
+  #`bundle config set --local without 'production' instead of bundle install --wthout production
+end
+
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
