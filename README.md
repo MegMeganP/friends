@@ -22,3 +22,13 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+for ruby on rails tutorial:
+https://www.youtube.com/watch?v=fmyvWz5TUWg
+
+40  TZInfo::DataSourceNotFound: tzinfo-data is not present. Please add gem 'tzinfo-data' to your Gemfile and run bundle install
+get the extensions , will auto complete
+
+gem install devise
+
+delete doesn't work for link to, only works for buttons
